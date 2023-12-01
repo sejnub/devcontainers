@@ -1,0 +1,25 @@
+{
+  "name": "elixir-1",
+  "build":{
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {"terminal.integrated.defaultProfile.linux": "bash"},
+      "extensions": [
+        "editorconfig.editorconfig",
+        "jakebecker.elixir-ls",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+
+  "appPort": [],
+
+  "postCreateCommand": "",
+
+  "remoteUser": "vscode"
+
+}
