@@ -1,4 +1,4 @@
-# Elixir - Development Container
+# Elixir 1 - Development Container
 
 ![elixir logo](https://elixir-lang.org/images/logo/logo.png)
 
